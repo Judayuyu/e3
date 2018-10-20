@@ -1,0 +1,770 @@
+[INFO ] 2018-09-26 22:17:42,599 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 22:17:42,691 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 22:17:42 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 22:17:42,740 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 22:17:43,063 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 22:17:43,264 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 22:17:43,322 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 22:17:43,572 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,574 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,575 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,575 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,575 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,576 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,576 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,576 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,577 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,578 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,578 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 22:17:43,579 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 22:17:43,580 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 22:17:43,581 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 22:17:43,595 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 22:17:43,605 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [DEBUG] 2018-09-26 22:17:44,253 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-09-26 22:17:44,498 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,588 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,658 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,742 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,791 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,847 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,931 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:44,984 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:45,025 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:45,062 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-09-26 22:17:45,103 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-09-26 22:17:45,804 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:46,085 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:46,086 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:46,087 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9428&registry=zookeeper&timestamp=1537971465840, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:46,362 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:46,411 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=7420&revision=1.0-SNAPSHOT&side=provider&timestamp=1537970994740}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:46,456     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-26 22:17:46,474        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;c:\Python27;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-26 22:17:46,475        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-26 22:17:46,476        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-26 22:17:46,476        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-26 22:17:46,476        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-26 22:17:46,476        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-09-26 22:17:46,477        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@f1abd28
+ [INFO ] 2018-09-26 22:17:46,491       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server /192.168.153.130:2181
+ [INFO ] 2018-09-26 22:17:55,506       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-26 22:17:55,565       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x166150cae420002, negotiated timeout = 30000
+ [INFO ] 2018-09-26 22:17:55,570          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-26 22:17:55,575 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:55,628 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:55,663 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:17:55,700 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 13100 ms
+ [WARN ] 2018-09-26 22:33:42,174 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 22:33:42,175 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:53729,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=9428&side=provider&timestamp=1537971465869, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:05:39,004 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:05:39,103 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:05:39 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:05:39,142 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:05:39,313 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:05:39,423 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:05:39,453 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:05:39,601 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,601 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,602 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,602 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,602 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,603 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,603 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,603 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,604 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,604 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,604 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:05:39,605 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:05:39,606 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:05:39,607 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:05:39,617 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:05:39,625 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:05:41,010 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:05:41,145 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:05:41,145 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1664&side=provider&timestamp=1537974341056, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:05:41,145 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1664&side=provider&timestamp=1537974341056 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=1664&registry=zookeeper&timestamp=1537974341019, dubbo version: 2.5.3, current host: 127.0.0.1
+ [ERROR] 2018-09-26 23:05:41,201 org.springframework.web.context.ContextLoader     - Context initialization failed
+ java.lang.NoClassDefFoundError: org/jboss/netty/channel/ChannelFactory
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:773)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:483)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.jboss.netty.channel.ChannelFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 38 more
+[INFO ] 2018-09-26 23:05:41,207 org.springframework.web.context.support.XmlWebApplicationContext     - Closing Root WebApplicationContext: startup date [Wed Sep 26 23:05:39 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:08:22,716 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:08:22,863 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:08:22 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:08:22,914 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:08:23,075 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:08:23,181 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:08:23,210 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:08:23,422 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,423 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,423 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,423 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,424 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,424 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,426 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,426 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,426 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,427 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,427 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:08:23,430 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,432 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:08:23,432 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,432 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:08:23,432 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,433 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:08:23,433 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,433 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:08:23,433 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,433 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:08:23,434 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,434 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,435 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:08:23,437 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:08:23,437 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:08:23,463 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:08:23,473 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:08:24,748 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:08:24,884 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:08:24,884 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8292&side=provider&timestamp=1537974504780, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:08:24,885 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8292&side=provider&timestamp=1537974504780 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=8292&registry=zookeeper&timestamp=1537974504755, dubbo version: 2.5.3, current host: 127.0.0.1
+ [ERROR] 2018-09-26 23:08:24,942 org.springframework.web.context.ContextLoader     - Context initialization failed
+ java.lang.NoClassDefFoundError: org/jboss/netty/channel/ChannelFactory
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:773)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:483)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.jboss.netty.channel.ChannelFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 38 more
+[INFO ] 2018-09-26 23:08:24,950 org.springframework.web.context.support.XmlWebApplicationContext     - Closing Root WebApplicationContext: startup date [Wed Sep 26 23:08:22 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:12:02,201 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:12:02,294 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:12:02 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:12:02,342 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:12:02,470 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:12:02,580 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:12:02,606 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:12:02,770 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,770 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,771 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,771 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,771 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,772 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,772 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,772 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,773 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,773 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,773 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:12:02,774 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,775 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:12:02,775 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,775 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:12:02,776 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:12:02,796 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:12:02,807 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:12:03,988 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:12:04,109 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:12:04,109 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=6072&side=provider&timestamp=1537974724019, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:12:04,109 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=6072&side=provider&timestamp=1537974724019 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=6072&registry=zookeeper&timestamp=1537974723998, dubbo version: 2.5.3, current host: 127.0.0.1
+ [ERROR] 2018-09-26 23:12:04,171 org.springframework.web.context.ContextLoader     - Context initialization failed
+ java.lang.NoClassDefFoundError: org/jboss/netty/channel/ChannelFactory
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:773)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:483)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.jboss.netty.channel.ChannelFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 38 more
+[INFO ] 2018-09-26 23:12:04,180 org.springframework.web.context.support.XmlWebApplicationContext     - Closing Root WebApplicationContext: startup date [Wed Sep 26 23:12:02 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:17:12,057 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:17:12,147 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:17:12 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:17:12,202 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:17:12,333 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:17:12,438 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:17:12,467 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:17:12,623 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,623 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,624 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,624 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,625 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,625 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,625 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,626 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,626 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,626 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,627 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:17:12,627 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,629 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:17:12,629 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:17:12,630 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:12,631 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:17:12,751 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:17:12,817 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:17:13,922 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:14,037 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:14,037 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=3704&side=provider&timestamp=1537975033956, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:14,038 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=3704&side=provider&timestamp=1537975033956 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=3704&registry=zookeeper&timestamp=1537975033937, dubbo version: 2.5.3, current host: 127.0.0.1
+ [ERROR] 2018-09-26 23:17:14,098 org.springframework.web.context.ContextLoader     - Context initialization failed
+ java.lang.NoClassDefFoundError: org/jboss/netty/channel/ChannelFactory
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:773)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:483)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.jboss.netty.channel.ChannelFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 38 more
+[INFO ] 2018-09-26 23:17:14,104 org.springframework.web.context.support.XmlWebApplicationContext     - Closing Root WebApplicationContext: startup date [Wed Sep 26 23:17:12 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:17:57,030 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:17:57,110 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:17:57 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:17:57,152 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:17:57,303 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:17:57,396 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:17:57,421 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:17:57,583 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,584 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,586 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,588 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,588 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,589 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,589 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,590 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,590 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,590 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,591 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:17:57,592 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,594 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:17:57,595 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:17:57,608 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:17:57,619 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:17:58,802 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:58,931 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:58,931 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:58,931 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9700&registry=zookeeper&timestamp=1537975078812, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:59,132 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:59,157 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=4676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537973313863 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=4676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537973313863 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=4676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537973313863}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:17:59,173     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-26 23:17:59,190        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+ [INFO ] 2018-09-26 23:17:59,190        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-26 23:17:59,190        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-26 23:17:59,190        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-26 23:17:59,190        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-26 23:17:59,190        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;c:\Python27;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-26 23:17:59,191        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-09-26 23:17:59,192        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2faca917
+ [INFO ] 2018-09-26 23:17:59,204       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server /192.168.153.130:2181
+ [INFO ] 2018-09-26 23:18:08,253       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-26 23:18:08,328       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x166150cae420005, negotiated timeout = 30000
+ [INFO ] 2018-09-26 23:18:08,334          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-26 23:18:08,337 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:18:08,377 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:18:08,425 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:18:08,483 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 11452 ms
+ [WARN ] 2018-09-26 23:20:11,674 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:20:11,773 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:55210,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-09-26 23:21:26,769 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:21:26,770 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:55241,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:00,290 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:22:00,371 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:22:00 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:22:00,417 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:22:00,565 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:22:00,655 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:22:00,685 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:22:00,914 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,915 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,915 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,916 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,916 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,917 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,917 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,917 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,918 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,918 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,918 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:22:00,919 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,920 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:22:00,920 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,920 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:22:00,920 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,921 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:22:00,921 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,921 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:22:00,921 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,921 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:22:00,921 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:22:00,922 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:22:00,936 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:22:00,947 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:22:02,263 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:02,371 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:02,371 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:02,372 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9440&registry=zookeeper&timestamp=1537975322271, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:02,576 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:02,596 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537975296777 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537975296777 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9700&side=provider&timestamp=1537975078835}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:02,607     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;c:\Python27;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-26 23:22:02,617        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-09-26 23:22:02,620        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@21c7dc98
+ [INFO ] 2018-09-26 23:22:02,637       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server /192.168.153.130:2181
+ [WARN ] 2018-09-26 23:22:10,377 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:10,382 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:55310,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:11,651       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-26 23:22:11,674       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x166150cae420009, negotiated timeout = 30000
+ [INFO ] 2018-09-26 23:22:11,679          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-26 23:22:11,706 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:11,746 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:11,781 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:11,810 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 11519 ms
+ [WARN ] 2018-09-26 23:22:18,544 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:22:18,545 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:55313,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:23:59,276 com.alibaba.druid.pool.DruidDataSource     - {dataSource-1} inited
+ [WARN ] 2018-09-26 23:23:59,807 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Fail to encode response: Response [id=1, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.yan.pojo.TbItem@160a601e, exception=null]], send bad_response info instead, cause: Serialized class com.yan.pojo.TbItem must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+ java.lang.IllegalStateException: Serialized class com.yan.pojo.TbItem must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:66)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:292)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:254)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2018-09-26 23:23:59,860 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Fail to encode response: Response [id=2, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.yan.pojo.TbItem@5e81e46e, exception=null]], send bad_response info instead, cause: Serialized class com.yan.pojo.TbItem must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+ java.lang.IllegalStateException: Serialized class com.yan.pojo.TbItem must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:66)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:292)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:254)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2018-09-26 23:23:59,871 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Fail to encode response: Response [id=3, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.yan.pojo.TbItem@7aa0448, exception=null]], send bad_response info instead, cause: Serialized class com.yan.pojo.TbItem must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+ java.lang.IllegalStateException: Serialized class com.yan.pojo.TbItem must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:66)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:292)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:254)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-09-26 23:28:08,041 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-09-26 23:28:08,182 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Sep 26 23:28:08 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-26 23:28:08,270 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-09-26 23:28:08,553 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-09-26 23:28:08,673 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-26 23:28:08,736 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-09-26 23:28:09,067 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,068 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,068 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,069 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,069 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,069 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,070 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,070 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,070 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,071 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,071 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-26 23:28:09,071 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,073 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-26 23:28:09,073 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,073 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-26 23:28:09,073 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,074 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-26 23:28:09,075 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-26 23:28:09,075 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-26 23:28:09,090 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-09-26 23:28:09,099 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-26 23:28:10,760 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:10,907 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:10,907 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:10,907 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=8056&registry=zookeeper&timestamp=1537975690769, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:11,132 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:11,157 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8584&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537975347295 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8584&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537975347295 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=9440&side=provider&timestamp=1537975322290}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:11,169     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-26 23:28:11,182        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+ [INFO ] 2018-09-26 23:28:11,184        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-26 23:28:11,184        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-26 23:28:11,184        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-26 23:28:11,185        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-26 23:28:11,185        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-26 23:28:11,185        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;c:\Python27;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-26 23:28:11,186        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-26 23:28:11,186        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-26 23:28:11,186        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-26 23:28:11,186        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-26 23:28:11,186        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-26 23:28:11,187        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-26 23:28:11,187        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-26 23:28:11,187        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-09-26 23:28:11,188        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@431ee214
+ [INFO ] 2018-09-26 23:28:11,206       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server /192.168.153.130:2181
+ [INFO ] 2018-09-26 23:28:20,228       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-26 23:28:20,266       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x166150cae42000b, negotiated timeout = 30000
+ [INFO ] 2018-09-26 23:28:20,268          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-26 23:28:20,269 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:20,307 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:20,339 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:20,378 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 12335 ms
+ [WARN ] 2018-09-26 23:28:23,736 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:23,737 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:55516,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:28:48,512 com.alibaba.druid.pool.DruidDataSource     - {dataSource-1} inited
+ [WARN ] 2018-09-26 23:29:24,943 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-26 23:29:24,943 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:55556,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=8056&side=provider&timestamp=1537975690798, dubbo version: 2.5.3, current host: 127.0.0.1
+ 

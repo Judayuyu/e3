@@ -1,0 +1,147 @@
+[INFO ] 2018-09-27 19:48:01,673 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d417077: startup date [Thu Sep 27 19:48:01 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 19:48:01,825 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/applicationContext-dao.xml]
+ [DEBUG] 2018-09-27 19:48:02,326 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,327 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,328 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,328 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,328 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,329 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,329 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,330 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,330 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-27 19:48:02,359 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,362 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-27 19:48:02,363 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:02,364 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-27 19:48:02,470 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [DEBUG] 2018-09-27 19:48:03,400 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-09-27 19:48:03,545 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,627 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,693 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,759 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,809 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,859 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,889 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:03,999 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:04,046 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:04,115 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:04,151 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-09-27 19:48:50,749 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d417077: startup date [Thu Sep 27 19:48:50 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 19:48:50,827 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/applicationContext-dao.xml]
+ [DEBUG] 2018-09-27 19:48:51,226 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,227 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,227 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,228 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,228 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,229 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,229 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,230 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,230 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,231 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,232 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-27 19:48:51,238 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,241 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,242 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-27 19:48:51,243 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-27 19:48:51,243 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-27 19:48:51,305 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [DEBUG] 2018-09-27 19:48:52,424 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-09-27 19:48:52,711 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:52,851 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:52,930 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:52,971 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:52,998 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:53,078 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:53,118 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:53,186 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:53,226 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:53,346 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-09-27 19:48:53,426 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-09-27 19:48:54,296 com.alibaba.druid.pool.DruidDataSource     - {dataSource-1} inited
+ [INFO ] 2018-09-27 20:18:38,955 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@56cbfb61: startup date [Thu Sep 27 20:18:38 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:18:39,118 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/applicationContext-dao.xml]
+ [DEBUG] 2018-09-27 20:18:39,546 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,547 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,547 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,548 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,548 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,549 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,549 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,549 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,550 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,550 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,551 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-09-27 20:18:39,556 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-09-27 20:18:39,560 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-09-27 20:18:39,561 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,562 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-09-27 20:18:39,562 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-09-27 20:18:39,562 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-09-27 20:18:39,645 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [DEBUG] 2018-09-27 20:18:40,860 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-09-27 20:18:41,186 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,235 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,284 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,323 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,354 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,447 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,527 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,590 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,653 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,695 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-09-27 20:18:41,749 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-09-27 20:18:42,611 com.alibaba.druid.pool.DruidDataSource     - {dataSource-1} inited
+ 

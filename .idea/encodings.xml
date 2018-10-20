@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/e3-1carts-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-carts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-carts-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-carts/e3-carts-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-carts/e3-carts-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content/e3-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content/e3-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-item-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order/e3-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order/e3-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search/e3-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search/e3-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3_sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3_sso/e3-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3_sso/e3-sso-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3c-art" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3-manager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3-manager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3-manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3ssoweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fastdfs-client-java-master" charset="UTF-8" />
+  </component>
+</project>

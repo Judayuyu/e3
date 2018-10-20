@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+">
+    <context:component-scan base-package="com.yan.order.service"/>
+
+    <!-- dubbo发布服务 -->
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="e3-content" />
+    <!-- 配置zookeeper的地址，集群地址用逗号隔开 -->
+    <dubbo:registry protocol="zookeeper" address="192.168.153.133:2181" />
+    <!-- dubbo协议暴露服务的端口 -->
+    <dubbo:protocol name="dubbo" port="20885" />
+    <!-- 声明需要暴露的服务接口
+        ref：为注入的对应接口的bean
+        timneout：超时时间，单位ms，开发模式可以设长一点方便debug
+    -->
+    <dubbo:service interface="com.yan.order.service.OrderService" ref="orderServiceImpl" />
+</beans>

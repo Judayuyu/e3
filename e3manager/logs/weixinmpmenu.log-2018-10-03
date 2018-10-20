@@ -1,0 +1,1083 @@
+[INFO ] 2018-10-03 13:52:33,038 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-10-03 13:52:33,193 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Oct 03 13:52:33 CST 2018]; root of context hierarchy
+ [INFO ] 2018-10-03 13:52:33,303 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-10-03 13:52:33,500 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-10-03 13:52:33,649 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-10-03 13:52:33,682 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-10-03 13:52:34,173 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,175 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,176 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,178 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,178 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,179 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,180 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,181 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,181 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,182 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,183 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-10-03 13:52:34,183 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-10-03 13:52:34,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-10-03 13:52:34,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-10-03 13:52:34,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-10-03 13:52:34,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-10-03 13:52:34,259 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-10-03 13:52:34,280 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [DEBUG] 2018-10-03 13:52:35,483 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-10-03 13:52:35,794 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:35,898 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:35,948 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,029 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,078 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,139 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,181 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,215 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,415 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,463 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-10-03 13:52:36,495 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-10-03 13:52:38,638 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,287 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,288 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,289 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=5424&registry=zookeeper&timestamp=1538545958668, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,673 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,728 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=3876&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538480790711 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=3876&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538480790711 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=11184&side=provider&timestamp=1538480690086, com.yan.service.ItemCatService=empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=3876&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538480789787 empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=3876&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538480789787 dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=11184&side=provider&timestamp=1538480690950}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,780     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-10-03 13:52:39,817        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-10-03 13:52:39,817        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-10-03 13:52:39,818        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-10-03 13:52:39,820        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@10998f7e
+ [INFO ] 2018-10-03 13:52:39,878       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 13:52:39,881       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 13:52:39,926       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x16633d5e5eb0008, negotiated timeout = 30000
+ [INFO ] 2018-10-03 13:52:39,928          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 13:52:39,930 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:39,964 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,074 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,364 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,394 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,395 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,395 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemCatService url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=5424&registry=zookeeper&timestamp=1538545960375, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,398 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,513 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,614 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:52:40,621 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 7571 ms
+ [WARN ] 2018-10-03 13:56:29,073 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:56:29,073 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:59101,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 13:59:23,560 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 13:59:23,561 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:59196,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 14:00:08,629 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 14:00:08,929 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:59580,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 14:26:49,592 com.alibaba.druid.pool.DruidDataSource     - {dataSource-1} inited
+ [WARN ] 2018-10-03 14:46:42,791 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 14:46:42,791 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:59607,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 14:48:44,413 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 14:48:44,415 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:60436,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 14:49:42,972 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 14:49:42,974 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:60619,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 14:51:48,602 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 14:51:48,602 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:60648,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 16:26:20,166       org.apache.zookeeper.ClientCnxn     - Session 0x16633d5e5eb0008 for server 192.168.153.130/192.168.153.130:2181, unexpected error, closing socket connection and attempting reconnect
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 16:26:20,800          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (Disconnected)
+ [INFO ] 2018-10-03 16:26:21,763       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 16:26:30,763       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 16:26:30,843       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x16633d5e5eb0008, negotiated timeout = 30000
+ [INFO ] 2018-10-03 16:26:30,843          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 17:14:34,081 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-10-03 17:14:34,400 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Oct 03 17:14:34 CST 2018]; root of context hierarchy
+ [INFO ] 2018-10-03 17:14:34,819 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-10-03 17:14:35,262 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-10-03 17:14:35,549 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-10-03 17:14:35,638 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-10-03 17:14:36,297 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,297 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,298 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,299 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,299 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,322 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,323 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,324 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,325 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,326 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,328 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-10-03 17:14:36,329 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,331 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-10-03 17:14:36,331 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-10-03 17:14:36,332 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,333 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-10-03 17:14:36,334 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-10-03 17:14:36,335 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-10-03 17:14:36,390 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-10-03 17:14:36,405 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [DEBUG] 2018-10-03 17:14:38,849 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-10-03 17:14:39,089 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,142 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,246 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,340 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,441 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,489 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,518 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,551 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,598 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,655 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-10-03 17:14:39,695 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-10-03 17:14:40,901 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:41,132 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:41,132 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:41,132 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=7880&registry=zookeeper&timestamp=1538558080918, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:42,316 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:42,404 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=3284&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538549519384 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=3284&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538549519384 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=5424&side=provider&timestamp=1538545958749, com.yan.service.ItemCatService=empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=3284&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538549518820 empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=3284&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538549518820 dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=5424&side=provider&timestamp=1538545960378}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:42,537     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-10-03 17:14:42,546        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-10-03 17:14:42,546        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-10-03 17:14:42,546        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-10-03 17:14:42,547        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-10-03 17:14:42,549        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5e38e99f
+ [INFO ] 2018-10-03 17:14:42,623       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 17:14:42,625       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 17:14:42,639       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x16633d5e5eb0011, negotiated timeout = 30000
+ [INFO ] 2018-10-03 17:14:42,643          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 17:14:42,645 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:42,717 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:42,763 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:42,875 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,000 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,000 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,000 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemCatService url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=7880&registry=zookeeper&timestamp=1538558082879, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,002 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,061 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,086 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 17:14:43,092 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 9005 ms
+ [WARN ] 2018-10-03 18:30:09,461 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 18:30:09,544 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:62606,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 18:48:11,558 com.alibaba.druid.pool.DruidDataSource     - {dataSource-1} inited
+ [WARN ] 2018-10-03 19:33:21,595       org.apache.zookeeper.ClientCnxn     - Session 0x16633d5e5eb0011 for server 192.168.153.130/192.168.153.130:2181, unexpected error, closing socket connection and attempting reconnect
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 19:33:22,876          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (Disconnected)
+ [INFO ] 2018-10-03 19:33:23,527       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 19:33:26,915       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 19:33:28,310       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x16633d5e5eb0011, negotiated timeout = 30000
+ [INFO ] 2018-10-03 19:33:28,310          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [WARN ] 2018-10-03 19:39:14,751       org.apache.zookeeper.ClientCnxn     - Client session timed out, have not heard from server in 36280ms for sessionid 0x16633d5e5eb0011
+ [INFO ] 2018-10-03 19:39:14,752       org.apache.zookeeper.ClientCnxn     - Client session timed out, have not heard from server in 36280ms for sessionid 0x16633d5e5eb0011, closing socket connection and attempting reconnect
+ [INFO ] 2018-10-03 19:39:14,853          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (Disconnected)
+ [INFO ] 2018-10-03 19:39:16,160       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 19:39:37,160       org.apache.zookeeper.ClientCnxn     - Session 0x16633d5e5eb0011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 19:39:39,159       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 19:39:39,162       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 19:39:39,166          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (Expired)
+ [WARN ] 2018-10-03 19:39:39,166       org.apache.zookeeper.ClientCnxn     - Unable to reconnect to ZooKeeper service, session 0x16633d5e5eb0011 has expired
+ [INFO ] 2018-10-03 19:39:39,167        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5e38e99f
+ [INFO ] 2018-10-03 19:39:39,167       org.apache.zookeeper.ClientCnxn     - Unable to reconnect to ZooKeeper service, session 0x16633d5e5eb0011 has expired, closing socket connection
+ [INFO ] 2018-10-03 19:39:39,263 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Recover register url [dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,341       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 19:39:39,342 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Recover subscribe url [provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,388       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 19:39:39,392       org.apache.zookeeper.ClientCnxn     - EventThread shut down for session: 0x16633d5e5eb0011
+ [INFO ] 2018-10-03 19:39:39,393       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x16633d5e5eb0018, negotiated timeout = 30000
+ [INFO ] 2018-10-03 19:39:39,394          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 19:39:39,409 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,462 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,763 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Retry register [dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,826 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Retry subscribe {provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@521c6100], provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@43f63f83]}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,921 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 19:39:39,979 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880], dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 20:28:19,373 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 20:28:19,609 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:64218,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:27,452 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-10-03 22:28:27,736 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Oct 03 22:28:27 CST 2018]; root of context hierarchy
+ [INFO ] 2018-10-03 22:28:27,828 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-10-03 22:28:28,267 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-10-03 22:28:28,664 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-10-03 22:28:28,745 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-10-03 22:28:29,150 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,151 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,161 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,162 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,162 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,163 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,164 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,165 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,178 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,179 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,179 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-10-03 22:28:29,180 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,185 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:28:29,186 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-10-03 22:28:29,229 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-10-03 22:28:29,250 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [DEBUG] 2018-10-03 22:28:31,685 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-10-03 22:28:32,101 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,250 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,329 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,400 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,457 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,537 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,609 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,636 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,714 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,750 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-10-03 22:28:32,772 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-10-03 22:28:33,707 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:34,192 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:34,192 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=6304&side=provider&timestamp=1538576913867, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:34,193 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=6304&side=provider&timestamp=1538576913867 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=6304&registry=zookeeper&timestamp=1538576913717, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:34,660 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:34,689 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.cat.service.ContentCategoryService=empty://10.201.23.249/com.yan.cat.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.cat.service.ContentCategoryService&methods=getContentCatList&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562693217 empty://10.201.23.249/com.yan.cat.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.cat.service.ContentCategoryService&methods=getContentCatList&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562693217 dubbo://10.201.23.249:20881/com.yan.cat.service.ContentCategoryService?anyhost=true&application=e3-content&dubbo=2.5.3&interface=com.yan.cat.service.ContentCategoryService&methods=getContentCatList&pid=6368&side=provider&timestamp=1538558949689, com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694115 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694115 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, com.yan.content.service.ContentCategoryService=empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542 empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542 empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542, com.yan.service.ItemCatService=empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694064 empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694064 dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:28:34,772     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-10-03 22:28:34,794        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-10-03 22:28:34,794        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-10-03 22:28:34,794        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-10-03 22:28:34,795        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-10-03 22:28:34,797        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-10-03 22:28:34,797        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-10-03 22:28:34,797        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-10-03 22:28:34,798        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-10-03 22:28:34,799        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cfe3812
+ [INFO ] 2018-10-03 22:28:34,938       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:28:55,943       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:28:57,077       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:29:18,079       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:29:19,180       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:29:40,182       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:29:41,283       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:30:02,287       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:30:03,388       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:30:24,391       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:30:25,492       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:30:46,497       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:30:47,598       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:31:08,599       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:31:09,700       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:31:30,705       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:31:31,805       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:31:52,810       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:31:53,911       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:32:14,913       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:32:16,015       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:32:37,016       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:32:38,118       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:32:59,120       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:33:00,220       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:33:21,222       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:33:22,323       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:33:43,325       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:33:44,426       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:34:05,429       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:34:06,530       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:34:27,534       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:34:28,636       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:34:49,640       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:34:50,741       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:35:11,743       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:35:12,845       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:35:33,847       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:35:34,949       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:35:55,952       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:35:57,053       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:36:18,054       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:36:19,157       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:36:40,160       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:36:41,261       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:37:02,265       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:37:03,366       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:37:24,368       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:37:25,470       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:37:46,477       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:37:47,579       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:38:08,582       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:38:09,682       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:38:30,684       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:38:31,785       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:38:52,787       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:38:53,888       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:39:14,890       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:39:15,990       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:39:36,992       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:39:38,093       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:39:59,096       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:00,198       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:01,201       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:02,301       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:03,304       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:04,405       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:05,407       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:06,508       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:07,510       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:08,611       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:09,615       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:10,716       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:11,719       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:12,820       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:13,824       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:14,924       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:15,928       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:17,030       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:18,035       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:19,136       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:20,140       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:21,243       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:22,254       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:23,354       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:24,355       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:25,456       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:26,458       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:27,560       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:28,572       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:29,673       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:30,675       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:31,775       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:32,788       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:33,889       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:35,005       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:36,110       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:37,418       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:38,520       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:39,605       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:40,707       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:41,712       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:42,812       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:43,814       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:44,916       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:45,919       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:47,021       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:48,024       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:49,125       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:50,131       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:51,234       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:52,237       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:53,338       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:54,339       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:55,441       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:56,444       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:57,546       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:40:58,549       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:40:59,650       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:00,653       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:01,755       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:02,757       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:03,857       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:04,861       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:05,962       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:06,965       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:08,066       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:09,067       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:10,169       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:11,174       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:12,275       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:13,280       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:14,380       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:15,382       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:16,483       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:17,487       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:18,587       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:19,591       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:20,692       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:21,695       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:22,796       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:23,798       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:24,900       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:25,903       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:27,004       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:28,005       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:29,107       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:30,112       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:31,212       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:32,215       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:33,316       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [WARN ] 2018-10-03 22:41:34,319       org.apache.zookeeper.ClientCnxn     - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO ] 2018-10-03 22:41:35,420       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 22:41:35,421       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 22:41:35,443       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1663a63e5700000, negotiated timeout = 30000
+ [INFO ] 2018-10-03 22:41:35,446          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 22:41:35,450 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=6304&side=provider&timestamp=1538576913867, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,483 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=6304&side=provider&timestamp=1538576913867, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,503 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=6304&side=provider&timestamp=1538576913867, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=6304&side=provider&timestamp=1538576913867], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,543 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,569 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,569 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=6304&side=provider&timestamp=1538577695561, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,569 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemCatService url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=6304&side=provider&timestamp=1538577695561 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=6304&registry=zookeeper&timestamp=1538577695555, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,570 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=6304&side=provider&timestamp=1538577695561, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,585 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=6304&side=provider&timestamp=1538577695561, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,597 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=6304&side=provider&timestamp=1538577695561, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=6304&side=provider&timestamp=1538577695561], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:41:35,600 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 788057 ms
+ [INFO ] 2018-10-03 22:42:42,106 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-10-03 22:42:42,224 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Oct 03 22:42:42 CST 2018]; root of context hierarchy
+ [INFO ] 2018-10-03 22:42:42,284 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-10-03 22:42:42,440 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-10-03 22:42:42,594 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-10-03 22:42:42,633 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-10-03 22:42:42,926 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,926 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,927 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,927 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,928 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,928 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,931 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,931 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,932 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,932 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,933 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-10-03 22:42:42,934 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,936 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-10-03 22:42:42,937 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,937 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-10-03 22:42:42,938 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,939 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-10-03 22:42:42,939 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,939 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-10-03 22:42:42,939 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-10-03 22:42:42,939 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-10-03 22:42:42,971 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-10-03 22:42:42,991 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [DEBUG] 2018-10-03 22:42:43,754 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-10-03 22:42:43,899 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:43,946 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,020 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,050 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,072 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,095 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,127 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,147 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,167 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,187 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-10-03 22:42:44,209 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-10-03 22:42:44,668 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:44,857 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:44,857 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:44,857 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9368&registry=zookeeper&timestamp=1538577764678, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,147 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,177 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.cat.service.ContentCategoryService=empty://10.201.23.249:20881/com.yan.cat.service.ContentCategoryService?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.cat.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=8000&side=provider&timestamp=1538577745093, com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694115 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694115 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=7880&side=provider&timestamp=1538558080962, com.yan.content.service.ContentCategoryService=empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542 empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542 empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542, com.yan.service.ItemCatService=empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694064 empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538562694064 dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=7880&side=provider&timestamp=1538558082880}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,194     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-10-03 22:42:45,208        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-10-03 22:42:45,209        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-10-03 22:42:45,209        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-10-03 22:42:45,209        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-10-03 22:42:45,209        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-10-03 22:42:45,209        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-10-03 22:42:45,210        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@18092a61
+ [INFO ] 2018-10-03 22:42:45,239       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 22:42:45,241       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 22:42:45,251       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1663a63e5700003, negotiated timeout = 30000
+ [INFO ] 2018-10-03 22:42:45,253          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 22:42:45,255 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,291 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,320 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,392 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,433 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,433 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,433 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemCatService url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9368&registry=zookeeper&timestamp=1538577765401, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,455 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,505 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,528 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:42:45,531 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 3424 ms
+ [WARN ] 2018-10-03 22:46:54,443 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:46:54,450 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:52199,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 22:52:33,640 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:52:33,642 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:52497,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 22:53:39,100 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 22:53:39,102 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:52622,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 23:00:30,795 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:00:30,796 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:53045,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 23:03:31,074 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:03:31,076 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:53070,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 23:03:56,089 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:03:56,111 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:53255,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:49,052 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization started
+ [INFO ] 2018-10-03 23:04:49,249 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing Root WebApplicationContext: startup date [Wed Oct 03 23:04:49 CST 2018]; root of context hierarchy
+ [INFO ] 2018-10-03 23:04:49,304 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+ [INFO ] 2018-10-03 23:04:49,446 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+ [INFO ] 2018-10-03 23:04:49,582 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-10-03 23:04:49,616 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [D:\openSource&jar\e3\e3manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+ [DEBUG] 2018-10-03 23:04:49,854 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,857 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,863 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,865 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,865 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,865 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,866 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,866 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,866 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,867 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,867 org.mybatis.spring.mapper.ClassPathMapperScanner     - Identified candidate component class: file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.class]
+ [DEBUG] 2018-10-03 23:04:49,868 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.yan.mapper.TbContentCategoryMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,870 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+ [DEBUG] 2018-10-03 23:04:49,870 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbContentMapper' and 'com.yan.mapper.TbContentMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,870 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+ [DEBUG] 2018-10-03 23:04:49,870 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.yan.mapper.TbItemCatMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,870 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+ [DEBUG] 2018-10-03 23:04:49,870 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.yan.mapper.TbItemDescMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemMapper' and 'com.yan.mapper.TbItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.yan.mapper.TbItemParamItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.yan.mapper.TbItemParamMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.yan.mapper.TbOrderItemMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.yan.mapper.TbOrderMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.yan.mapper.TbOrderShippingMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Creating MapperFactoryBean with name 'tbUserMapper' and 'com.yan.mapper.TbUserMapper' mapperInterface
+ [DEBUG] 2018-10-03 23:04:49,871 org.mybatis.spring.mapper.ClassPathMapperScanner     - Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+ [INFO ] 2018-10-03 23:04:49,894 org.springframework.context.support.PropertySourcesPlaceholderConfigurer     - Loading properties file from class path resource [dbconfig/db.properties]
+ [INFO ] 2018-10-03 23:04:49,905 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [DEBUG] 2018-10-03 23:04:50,725 org.mybatis.spring.SqlSessionFactoryBean     - Parsed configuration file: 'class path resource [mybatis/mybatis-config.xml]'
+ [DEBUG] 2018-10-03 23:04:50,865 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentCategoryMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:50,907 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbContentMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:50,947 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemCatMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:50,980 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemDescMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,027 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,060 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamItemMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,088 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbItemParamMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,113 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderItemMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,133 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,175 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbOrderShippingMapper.xml]'
+ [DEBUG] 2018-10-03 23:04:51,208 org.mybatis.spring.SqlSessionFactoryBean     - Parsed mapper file: 'file [D:\openSource&jar\e3\e3manager\e3-manager-dao\target\classes\com\yan\mapper\TbUserMapper.xml]'
+ [INFO ] 2018-10-03 23:04:51,754 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:51,939 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:51,939 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemService to url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:51,939 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemService url dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=476&registry=zookeeper&timestamp=1538579091769, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,264 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.201.23.249:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,293 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.cat.service.ContentCategoryService=empty://10.201.23.249:20881/com.yan.cat.service.ContentCategoryService?anyhost=true&application=e3-content&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.cat.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=9080&side=provider&timestamp=1538579055121, com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=10748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538579027131 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=10748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538579027131 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=addItem,getItemList,getItemById&pid=9368&side=provider&timestamp=1538577764704, com.yan.service.ItemCatService=empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=10748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538579026992 empty://10.201.23.249/com.yan.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=10748&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538579026992 dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=9368&side=provider&timestamp=1538577765402, com.yan.content.service.ContentCategoryService=empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542 empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542 empty://10.201.23.249/com.yan.content.service.ContentCategoryService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.yan.content.service.ContentCategoryService&methods=getContentCatList&pid=1252&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538558315542}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,311     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-10-03 23:04:52,321        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-10-03 23:04:52,322        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3manager
+ [INFO ] 2018-10-03 23:04:52,323        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@4483d76
+ [INFO ] 2018-10-03 23:04:52,340       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-10-03 23:04:52,345       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-10-03 23:04:52,353       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1663a63e570000b, negotiated timeout = 30000
+ [INFO ] 2018-10-03 23:04:52,355          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-10-03 23:04:52,360 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,385 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,401 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795, urls: [empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,432 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] The service ready on spring started. service: com.yan.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,444 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,444 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Export dubbo service com.yan.service.ItemCatService to url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=476&side=provider&timestamp=1538579092436, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,444 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Register dubbo service com.yan.service.ItemCatService url dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=476&side=provider&timestamp=1538579092436 to registry registry://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=476&registry=zookeeper&timestamp=1538579092435, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,448 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=476&side=provider&timestamp=1538579092436, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,456 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=476&side=provider&timestamp=1538579092436, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,463 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url provider://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=476&side=provider&timestamp=1538579092436, urls: [empty://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=476&side=provider&timestamp=1538579092436], dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:04:52,465 org.springframework.web.context.ContextLoader     - Root WebApplicationContext: initialization completed in 3411 ms
+ [WARN ] 2018-10-03 23:06:19,084 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:06:19,086 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:53319,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795, dubbo version: 2.5.3, current host: 127.0.0.1
+ [WARN ] 2018-10-03 23:07:41,805 com.alibaba.dubbo.remoting.transport.AbstractServer     -  [DUBBO] All clients has discontected from /10.201.23.249:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-10-03 23:07:41,808 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:53377,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,addItem,getItemById&pid=476&side=provider&timestamp=1538579091795, dubbo version: 2.5.3, current host: 127.0.0.1
+ 

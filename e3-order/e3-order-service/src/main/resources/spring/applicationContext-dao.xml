@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--1.数据源-->
+    <context:property-placeholder location="classpath:/dbconfig/db.properties"/>
+    <bean id="pooledDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.jdbcurl}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="maxActive" value="10"/>
+        <property name="minIdle" value="5"/>
+    </bean>
+    <!--2.配置和Mybatis的整合    配置SqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--指定mybatis全局配置文件的位置-->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+        <property name="dataSource" ref="pooledDataSource"/>
+        <!--mapper文件的位置-->
+        <property name="mapperLocations" value="classpath:com/yan/mapper/*.xml"/>
+    </bean>
+    <!--配置扫描器，将mybatis接口的实现加入到ioc容器中-->
+    <bean  class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--扫描所有dao接口，加入到ioc容器中-->
+        <property name="basePackage" value="com.yan.mapper"/>
+    </bean>
+</beans>

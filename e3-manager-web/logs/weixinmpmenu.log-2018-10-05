@@ -1,0 +1,20 @@
+[INFO ] 2018-10-05 00:13:55,284 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:20881,url:dubbo://10.201.23.249:20881/com.yan.cat.service.ContentCategoryService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.cat.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=8500&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538667758966, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-10-05 00:13:57,337 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:20880,url:dubbo://10.201.23.249:20880/com.yan.service.ItemCatService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemCatService&methods=getItemCatList&pid=8500&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538667759552, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-10-05 00:13:57,578 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] client reconnect to 10.201.23.249:20881 find error . url: dubbo://10.201.23.249:20881/com.yan.cat.service.ContentCategoryService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.cat.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=8500&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538667758966, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.201.23.249:20881/com.yan.cat.service.ContentCategoryService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.cat.service.ContentCategoryService&methods=addContentCategory,getContentCatList&pid=8500&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538667758966) failed to connect to server /10.201.23.249:20881, error message is:connection timed out: /10.201.23.249:20881
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out: /10.201.23.249:20881
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more

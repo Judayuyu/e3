@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/e3-cart" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-carts-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-carts/e3-carts-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-content" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-item-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-order/e3-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-search/e3-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/e3_sso/e3-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3common" />
+    <file type="web" url="file://$PROJECT_DIR$/e3content" />
+    <file type="web" url="file://$PROJECT_DIR$/e3manager/e3-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3manager/e3-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3parent" />
+    <file type="web" url="file://$PROJECT_DIR$/e3ssoweb" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/e3parent/pom.xml" />
+        <option value="$PROJECT_DIR$/e3common/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manager/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../fastdfs-client-java-master/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-content/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3_sso/pom.xml" />
+        <option value="$PROJECT_DIR$/e3ssoweb/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-carts/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-carts-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-order/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-order-web/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/e3-content-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3manager/e3-manager-web/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

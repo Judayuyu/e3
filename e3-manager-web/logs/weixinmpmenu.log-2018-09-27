@@ -1,0 +1,973 @@
+[INFO ] 2018-09-27 16:43:59,837 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 16:43:59,860 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 16:43:59 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 16:43:59,898 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 16:44:00,179 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 16:44:00,263 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 16:44:00,618 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1756&side=provider&timeout=1000&timestamp=1538037811358}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 16:44:00,666     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 16:44:00,674        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 16:44:00,674        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 16:44:00,674        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 16:44:00,674        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 16:44:00,675        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 16:44:00,676        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@55c1dcae
+ [INFO ] 2018-09-27 16:44:00,760       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 16:44:00,763       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 16:44:00,776       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600001, negotiated timeout = 30000
+ [INFO ] 2018-09-27 16:44:00,778          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 16:44:00,806 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:44:00,857 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:44:00,962 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1756&side=provider&timeout=1000&timestamp=1538037811358, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:44:01,199 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x97e3a1a2, /10.201.23.249:64909 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:44:01,199 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:44:01,253 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538037840543, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:44:01,440 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 16:44:01,478 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 16:44:01,479 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 16:44:02,015 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 16:43:59 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 16:44:02,049 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 16:43:59 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 16:44:02,097 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2256 ms
+ [INFO ] 2018-09-27 16:54:37,701 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 16:54:37,730 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 16:54:37 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 16:54:37,786 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 16:54:38,180 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 16:54:38,330 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 16:54:38,743 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=940&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538037840543 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1756&side=provider&timeout=1000&timestamp=1538037811358}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 16:54:38,759     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 16:54:38,781        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 16:54:38,782        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 16:54:38,782        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 16:54:38,782        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 16:54:38,782        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 16:54:38,782        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 16:54:38,783        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3d73c53b
+ [INFO ] 2018-09-27 16:54:38,816       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 16:54:38,819       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 16:54:38,830       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600002, negotiated timeout = 30000
+ [INFO ] 2018-09-27 16:54:38,832          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 16:54:38,861 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538038478656, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:54:38,894 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538038478656, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:54:38,939 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538038478656, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1756&side=provider&timeout=1000&timestamp=1538037811358, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538038478656, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538038478656], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:54:39,293 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x9e181379, /10.201.23.249:65325 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:54:39,294 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:54:39,359 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538038478656, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 16:54:39,562 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 16:54:39,606 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 16:54:39,606 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 16:54:39,607 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 16:54:40,071 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 16:54:37 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 16:54:40,182 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 16:54:37 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 16:54:40,270 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2568 ms
+ [INFO ] 2018-09-27 20:13:13,263 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:20880,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538038478656, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 20:13:14,654 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] client reconnect to 10.201.23.249:20880 find error . url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538038478656, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemById&pid=1760&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538038478656) failed to connect to server /10.201.23.249:20880, error message is:connection timed out: /10.201.23.249:20880
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out: /10.201.23.249:20880
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+[INFO ] 2018-09-27 20:13:28,692 com.alibaba.dubbo.remoting.transport.netty.NettyClient     -  [DUBBO] Close old netty channel [id: 0x9e181379, /10.201.23.249:65325 :> /10.201.23.249:20880] on create new netty channel [id: 0x161e47e7, /10.201.23.249:52715 => /10.201.23.249:20880], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:28,692 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x161e47e7, /10.201.23.249:52715 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:44,016 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:13:44,031 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:13:44 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:13:44,064 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:13:44,405 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:13:44,492 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:13:44,811 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=972&side=provider&timeout=1000&timestamp=1538050407930}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:13:44,821     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:13:44,839        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:13:44,839        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:13:44,839        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:13:44,839        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:13:44,839        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:13:44,840        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:13:44,841        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@60f3ba05
+ [INFO ] 2018-09-27 20:13:44,888       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:13:44,891       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:13:44,898       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600004, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:13:44,899          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:13:44,926 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:44,950 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:44,993 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=972&side=provider&timeout=1000&timestamp=1538050407930, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:45,202 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x7b27cdfd, /10.201.23.249:52734 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:45,202 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:45,259 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538050424742, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:13:45,422 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:13:45,465 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:13:45,466 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:13:45,467 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:13:45,467 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:13:45,830 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:13:44 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:13:45,871 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:13:44 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:13:45,922 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 1904 ms
+ [INFO ] 2018-09-27 20:16:16,927 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:16:16,944 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:16:16 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:16:16,975 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:16:17,237 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:16:17,360 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:16:17,700 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2108&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050424742 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=972&side=provider&timeout=1000&timestamp=1538050407930}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:16:17,714     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:16:17,735        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:16:17,735        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:16:17,735        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:16:17,735        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:16:17,735        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:16:17,735        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:16:17,736        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:16:17,737        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@54797938
+ [INFO ] 2018-09-27 20:16:17,772       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:16:17,775       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:16:17,800       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600005, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:16:17,802          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:16:17,827 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050577600, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:16:17,853 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050577600, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:16:17,893 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050577600, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=972&side=provider&timeout=1000&timestamp=1538050407930, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050577600, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050577600], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:16:18,095 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x947db936, /10.201.23.249:52790 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:16:18,095 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:16:18,151 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538050577600, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:16:18,311 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:16:18,395 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:16:18,396 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:16:18,398 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:16:18,398 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:16:18,753 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:16:16 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:16:18,798 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:16:16 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:16:18,868 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 1939 ms
+ [INFO ] 2018-09-27 20:19:46,352 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:20880,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538050577600, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 20:19:49,355 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] client reconnect to 10.201.23.249:20880 find error . url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538050577600, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=2332&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538050577600) failed to connect to server /10.201.23.249:20880, error message is:connection timed out: /10.201.23.249:20880
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out: /10.201.23.249:20880
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+[INFO ] 2018-09-27 20:20:00,415 com.alibaba.dubbo.remoting.transport.netty.NettyClient     -  [DUBBO] Close old netty channel [id: 0x947db936, /10.201.23.249:52790 :> /10.201.23.249:20880] on create new netty channel [id: 0xf1056da5, /10.201.23.249:52842 => /10.201.23.249:20880], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:00,416 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xf1056da5, /10.201.23.249:52842 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:14,018 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:20:14,038 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:20:14 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:20:14,068 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:20:14,310 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:20:14,414 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:20:14,726 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:20:14,740     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:20:14,763        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:20:14,765        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@11195c97
+ [INFO ] 2018-09-27 20:20:14,794       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:20:14,797       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:20:14,806       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600007, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:20:14,807          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:20:14,833 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:14,857 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:14,893 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:15,103 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xc7d07e03, /10.201.23.249:52861 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:15,103 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:15,176 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538050814648, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:20:15,353 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:20:15,400 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:20:15,400 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:20:15,401 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:20:15,401 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:20:15,697 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:20:14 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:20:15,738 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:20:14 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:20:15,783 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 1764 ms
+ [INFO ] 2018-09-27 20:23:21,217 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:23:21,299 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:23:21 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:23:21,334 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:23:21,719 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:23:21,833 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:23:22,297 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4288&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538050814648 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:23:22,319     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:23:22,346        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:23:22,347        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:23:22,349        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5b7f13f1
+ [INFO ] 2018-09-27 20:23:22,416       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:23:22,420       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:23:22,428       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600008, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:23:22,430          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:23:22,469 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:23:22,498 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:23:22,553 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:23:22,803 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xc9865188, /10.201.23.249:52895 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:23:22,803 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:23:22,880 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538051002179, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:23:23,117 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:23:23,186 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:23:23,187 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:23:23,189 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:23:23,189 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:23:23,576 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:23:21 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:23:23,624 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:23:21 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:23:23,679 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2461 ms
+ [INFO ] 2018-09-27 20:29:23,177 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:29:23,195 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:29:23 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:29:23,234 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:29:23,534 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:29:23,622 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:29:23,956 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051002179 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:29:23,967     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:29:23,982        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:29:23,983        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:29:23,984        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@bc3f763
+ [INFO ] 2018-09-27 20:29:24,009       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:29:24,012       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:29:24,019       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600009, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:29:24,020          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:29:24,044 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:29:24,062 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:29:24,094 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:29:24,294 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x7d26572e, /10.201.23.249:52966 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:29:24,294 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:29:24,360 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538051363888, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:29:24,502 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:29:24,545 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:29:24,546 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:29:24,547 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:29:24,547 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:29:24,822 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:29:23 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:29:24,858 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:29:23 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:29:24,900 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 1721 ms
+ [WARN ] 2018-09-27 20:29:33,420 com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult     -  [DUBBO] Decode rpc result failed: org/apache/ibatis/session/RowBounds, dubbo version: 2.5.3, current host: 10.201.23.249
+ java.lang.NoClassDefFoundError: org/apache/ibatis/session/RowBounds
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.createList(CollectionDeserializer.java:107)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.readLengthList(CollectionDeserializer.java:88)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1628)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer$ObjectFieldDeserializer.deserialize(JavaDeserializer.java:396)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:233)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:157)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObjectInstance(Hessian2Input.java:2067)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1592)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1576)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:94)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:99)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:83)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.apache.ibatis.session.RowBounds
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+[WARN ] 2018-09-27 20:29:33,423 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Skip input stream 8639, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 20:29:33,446 com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult     -  [DUBBO] Decode rpc result failed: org/apache/ibatis/session/RowBounds, dubbo version: 2.5.3, current host: 10.201.23.249
+ java.lang.NoClassDefFoundError: org/apache/ibatis/session/RowBounds
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.createList(CollectionDeserializer.java:107)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.readLengthList(CollectionDeserializer.java:88)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1628)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer$ObjectFieldDeserializer.deserialize(JavaDeserializer.java:396)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:233)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:157)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObjectInstance(Hessian2Input.java:2067)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1592)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1576)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:94)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:99)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:83)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.apache.ibatis.session.RowBounds
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+[WARN ] 2018-09-27 20:29:33,447 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Skip input stream 8639, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 20:29:33,468 com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult     -  [DUBBO] Decode rpc result failed: org/apache/ibatis/session/RowBounds, dubbo version: 2.5.3, current host: 10.201.23.249
+ java.lang.NoClassDefFoundError: org/apache/ibatis/session/RowBounds
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.createList(CollectionDeserializer.java:107)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.readLengthList(CollectionDeserializer.java:88)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1628)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer$ObjectFieldDeserializer.deserialize(JavaDeserializer.java:396)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:233)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:157)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObjectInstance(Hessian2Input.java:2067)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1592)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1576)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:94)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:99)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:83)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.apache.ibatis.session.RowBounds
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+[WARN ] 2018-09-27 20:29:33,469 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Skip input stream 8639, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:27,927 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:38:27,951 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:38:27 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:38:27,987 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:38:28,318 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:38:28,431 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:38:28,853 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051363888 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:38:28,870     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:38:28,893        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:38:28,894        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:38:28,894        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:38:28,894        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:38:28,894        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:38:28,896        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@49d09d31
+ [INFO ] 2018-09-27 20:38:28,930       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:38:28,933       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:38:28,943       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e60000a, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:38:28,945          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:38:28,976 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:29,033 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:29,509 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:29,732 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x6f0a563e, /10.201.23.249:53300 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:29,732 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:29,820 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538051908761, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:38:29,994 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:38:30,047 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:38:30,047 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:38:30,048 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:38:30,048 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:38:30,378 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:38:27 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:38:30,440 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:38:27 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:38:30,505 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2576 ms
+ [WARN ] 2018-09-27 20:38:40,856 com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult     -  [DUBBO] Decode rpc result failed: org/apache/ibatis/session/RowBounds, dubbo version: 2.5.3, current host: 10.201.23.249
+ java.lang.NoClassDefFoundError: org/apache/ibatis/session/RowBounds
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.createList(CollectionDeserializer.java:107)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.readLengthList(CollectionDeserializer.java:88)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1628)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer$ObjectFieldDeserializer.deserialize(JavaDeserializer.java:396)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:233)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:157)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObjectInstance(Hessian2Input.java:2067)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1592)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1576)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:94)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:99)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:83)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.apache.ibatis.session.RowBounds
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+[WARN ] 2018-09-27 20:38:40,859 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Skip input stream 8639, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 20:38:40,888 com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult     -  [DUBBO] Decode rpc result failed: org/apache/ibatis/session/RowBounds, dubbo version: 2.5.3, current host: 10.201.23.249
+ java.lang.NoClassDefFoundError: org/apache/ibatis/session/RowBounds
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.createList(CollectionDeserializer.java:107)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.readLengthList(CollectionDeserializer.java:88)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1628)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer$ObjectFieldDeserializer.deserialize(JavaDeserializer.java:396)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:233)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:157)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObjectInstance(Hessian2Input.java:2067)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1592)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1576)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:94)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:99)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:83)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.apache.ibatis.session.RowBounds
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+[WARN ] 2018-09-27 20:38:40,889 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Skip input stream 8639, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 20:38:40,915 com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult     -  [DUBBO] Decode rpc result failed: org/apache/ibatis/session/RowBounds, dubbo version: 2.5.3, current host: 10.201.23.249
+ java.lang.NoClassDefFoundError: org/apache/ibatis/session/RowBounds
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.createList(CollectionDeserializer.java:107)
+	at com.alibaba.com.caucho.hessian.io.CollectionDeserializer.readLengthList(CollectionDeserializer.java:88)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1628)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer$ObjectFieldDeserializer.deserialize(JavaDeserializer.java:396)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:233)
+	at com.alibaba.com.caucho.hessian.io.JavaDeserializer.readObject(JavaDeserializer.java:157)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObjectInstance(Hessian2Input.java:2067)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1592)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Input.readObject(Hessian2Input.java:1576)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:94)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectInput.readObject(Hessian2ObjectInput.java:99)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:83)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.apache.ibatis.session.RowBounds
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+[WARN ] 2018-09-27 20:38:40,916 com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec     -  [DUBBO] Skip input stream 8639, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:00,987 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:41:01,003 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:41:01 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:41:01,095 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:41:01,392 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:41:01,499 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:41:01,886 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1768&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538051908761 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:41:01,899     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:41:01,921        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:41:01,921        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:41:01,921        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:41:01,921        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:41:01,922        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:41:01,924        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@46861c60
+ [INFO ] 2018-09-27 20:41:01,953       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:41:01,956       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:41:01,963       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e60000b, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:41:01,964          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:41:01,993 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:02,014 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:02,056 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:02,318 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x85e33579, /10.201.23.249:53452 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:02,319 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:02,380 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538052061808, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:41:02,526 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:41:02,623 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:41:02,623 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:41:02,624 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:41:02,624 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:41:02,965 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:41:01 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:41:03,012 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:41:01 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:41:03,063 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2075 ms
+ [INFO ] 2018-09-27 20:46:51,073 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 20:46:51,093 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:46:51 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:46:51,129 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 20:46:51,405 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 20:46:51,509 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 20:46:51,858 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808 empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9156&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052061808 dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 20:46:51,870     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 20:46:51,887        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 20:46:51,887        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 20:46:51,887        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 20:46:51,887        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 20:46:51,888        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 20:46:51,888        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 20:46:51,888        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 20:46:51,888        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 20:46:51,888        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 20:46:51,888        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 20:46:51,889        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 20:46:51,889        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 20:46:51,889        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 20:46:51,889        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 20:46:51,890        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 20:46:51,891        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3dada767
+ [INFO ] 2018-09-27 20:46:51,916       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 20:46:51,918       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 20:46:51,925       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e60000c, negotiated timeout = 30000
+ [INFO ] 2018-09-27 20:46:51,926          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 20:46:51,951 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052411785, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:46:51,971 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052411785, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:46:52,003 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052411785, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052411785, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052411785], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:46:52,156 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xfa3fd622, /10.201.23.249:53520 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:46:52,156 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:46:52,221 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538052411785, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 20:46:52,401 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 20:46:52,439 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 20:46:52,439 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 20:46:52,440 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 20:46:52,440 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 20:46:52,698 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:46:51 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:46:52,749 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 20:46:51 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 20:46:52,812 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 1737 ms
+ [INFO ] 2018-09-27 21:01:36,527 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:20880,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538052411785, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 21:01:37,926 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] client reconnect to 10.201.23.249:20880 find error . url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538052411785, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538052411785) failed to connect to server /10.201.23.249:20880, error message is:Connection refused: no further information: /10.201.23.249:20880
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information: /10.201.23.249:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+[INFO ] 2018-09-27 21:01:50,222 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4460&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538052411785, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4952&side=provider&timeout=1000&timestamp=1538053309704, dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=9844&side=provider&timeout=1000&timestamp=1538050798459], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:01:52,012 com.alibaba.dubbo.remoting.transport.netty.NettyClient     -  [DUBBO] Close old netty channel [id: 0xfa3fd622, /10.201.23.249:53520 :> /10.201.23.249:20880] on create new netty channel [id: 0x906320e3, /10.201.23.249:53712 => /10.201.23.249:20880], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:01:52,012 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x906320e3, /10.201.23.249:53712 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:06,169 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 21:02:06,196 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 21:02:06 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 21:02:06,230 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 21:02:06,666 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 21:02:06,832 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 21:02:07,404 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4952&side=provider&timeout=1000&timestamp=1538053309704}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 21:02:07,428     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 21:02:07,451        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 21:02:07,452        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 21:02:07,453        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 21:02:07,453        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 21:02:07,453        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 21:02:07,454        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@72664c86
+ [INFO ] 2018-09-27 21:02:07,487       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 21:02:07,490       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 21:02:07,498       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e60000e, negotiated timeout = 30000
+ [INFO ] 2018-09-27 21:02:07,500          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 21:02:07,532 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538053327226, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:07,556 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538053327226, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:07,597 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538053327226, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4952&side=provider&timeout=1000&timestamp=1538053309704, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538053327226, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538053327226], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:07,831 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x8d59c90d, /10.201.23.249:53732 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:07,831 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:07,902 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538053327226, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:02:08,065 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 21:02:08,123 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 21:02:08,124 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 21:02:08,125 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 21:02:08,125 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 21:02:08,521 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 21:02:06 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 21:02:08,606 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 21:02:06 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 21:02:08,708 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2538 ms
+ [WARN ] 2018-09-27 21:02:28,614 com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker     -  [DUBBO] Although retry the method getItemList in the service com.yan.service.ItemService was successful by the provider 10.201.23.249:20880, but there have been failed providers [10.201.23.249:20880] (1/1) from the registry 192.168.153.130:2181 on the consumer 10.201.23.249 using the dubbo version 2.5.3. Last error is: Invoke remote method timeout. method: getItemList, provider: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538053327226, cause: Waiting server-side response timeout by scan timer. start time: 2018-09-27 21:02:27.400, end time: 2018-09-27 21:02:28.403, client elapsed: 74 ms, server elapsed: 928 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getItemList, parameterTypes=[int, int], arguments=[1, 30], attachments={path=com.yan.service.ItemService, interface=com.yan.service.ItemService, version=0.0.0, timeout=1000}]], channel: /10.201.23.249:53732 -> /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.rpc.RpcException: Invoke remote method timeout. method: getItemList, provider: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538053327226, cause: Waiting server-side response timeout by scan timer. start time: 2018-09-27 21:02:27.400, end time: 2018-09-27 21:02:28.403, client elapsed: 74 ms, server elapsed: 928 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getItemList, parameterTypes=[int, int], arguments=[1, 30], attachments={path=com.yan.service.ItemService, interface=com.yan.service.ItemService, version=0.0.0, timeout=1000}]], channel: /10.201.23.249:53732 -> /10.201.23.249:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:99)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:144)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:74)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:48)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:227)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy0.getItemList(proxy0.java)
+	at com.yan.controller.ItemController.getItemList(ItemController.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2018-09-27 21:02:27.400, end time: 2018-09-27 21:02:28.403, client elapsed: 74 ms, server elapsed: 928 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getItemList, parameterTypes=[int, int], arguments=[1, 30], attachments={path=com.yan.service.ItemService, interface=com.yan.service.ItemService, version=0.0.0, timeout=1000}]], channel: /10.201.23.249:53732 -> /10.201.23.249:20880
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.returnFromResponse(DefaultFuture.java:188)
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:110)
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:84)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:96)
+	... 55 more
+[WARN ] 2018-09-27 21:02:28,615 com.alibaba.dubbo.remoting.exchange.support.DefaultFuture     -  [DUBBO] The timeout response finally returned at 2018-09-27 21:02:28.615, response Response [id=0, version=null, status=20, event=false, error=null, result=RpcResult [result=com.yan.common.pojo.EasyUiDataGridResult@1d45c490, exception=null]], channel: /10.201.23.249:53732 -> /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:28,989 com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol     -  [DUBBO] disconected from /10.201.23.249:20880,url:dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538053327226, dubbo version: 2.5.3, current host: 10.201.23.249
+ [WARN ] 2018-09-27 21:17:31,781 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] client reconnect to 10.201.23.249:20880 find error . url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538053327226, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538053327226) failed to connect to server /10.201.23.249:20880, error message is:connection timed out: /10.201.23.249:20880
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out: /10.201.23.249:20880
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+[INFO ] 2018-09-27 21:17:42,224 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=6452&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538053327226, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=4952&side=provider&timeout=1000&timestamp=1538053309704, dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7836&side=provider&timeout=1000&timestamp=1538054261666], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:42,796 com.alibaba.dubbo.remoting.transport.netty.NettyClient     -  [DUBBO] Close old netty channel [id: 0x8d59c90d, /10.201.23.249:53732 :> /10.201.23.249:20880] on create new netty channel [id: 0xae4187e0, /10.201.23.249:54198 => /10.201.23.249:20880], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:42,797 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xae4187e0, /10.201.23.249:54198 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:55,281 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization started
+ [INFO ] 2018-09-27 21:17:55,379 org.springframework.web.context.support.XmlWebApplicationContext     - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 21:17:55 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 21:17:55,411 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [spring/springmvc.xml]
+ [INFO ] 2018-09-27 21:17:55,767 com.alibaba.dubbo.common.logger.LoggerFactory     - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ [INFO ] 2018-09-27 21:17:55,864 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor     - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ [INFO ] 2018-09-27 21:17:56,232 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.153.130.cache, data: {com.yan.service.ItemService=empty://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7836&side=provider&timeout=1000&timestamp=1538054261666}, dubbo version: 2.5.3, current host: 127.0.0.1
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:host.name=EPH7D9Z0GWU2COI
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:java.version=1.8.0_171
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:java.vendor=Oracle Corporation
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:java.home=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\lib\idea_rt.jar
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:java.library.path=D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\bin;D:\JDK1.8-EX\Java_1.8 64位\jdk1.8.0_171\jre\bin;D:\db-derby-10.14.1.0-bin\bin\bin;D:\Git\cmd;c:\Python27;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\development-tool\apache-maven-3.2.2\bin;C:\Program Files\Bandizip\;C:\windows\system32\;.
+ [INFO ] 2018-09-27 21:17:56,283        org.apache.zookeeper.ZooKeeper     - Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+ [INFO ] 2018-09-27 21:17:56,284        org.apache.zookeeper.ZooKeeper     - Client environment:java.compiler=<NA>
+ [INFO ] 2018-09-27 21:17:56,284        org.apache.zookeeper.ZooKeeper     - Client environment:os.name=Windows 10
+ [INFO ] 2018-09-27 21:17:56,284        org.apache.zookeeper.ZooKeeper     - Client environment:os.arch=amd64
+ [INFO ] 2018-09-27 21:17:56,284        org.apache.zookeeper.ZooKeeper     - Client environment:os.version=10.0
+ [INFO ] 2018-09-27 21:17:56,284        org.apache.zookeeper.ZooKeeper     - Client environment:user.name=Administrator
+ [INFO ] 2018-09-27 21:17:56,286        org.apache.zookeeper.ZooKeeper     - Client environment:user.home=C:\Users\Administrator
+ [INFO ] 2018-09-27 21:17:56,286        org.apache.zookeeper.ZooKeeper     - Client environment:user.dir=D:\openSource&jar\e3\e3-manager-web
+ [INFO ] 2018-09-27 21:17:56,288        org.apache.zookeeper.ZooKeeper     - Initiating client connection, connectString=192.168.153.130:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3e0261c2
+ [INFO ] 2018-09-27 21:17:56,354     org.I0Itec.zkclient.ZkEventThread     - Starting ZkClient event thread.
+ [INFO ] 2018-09-27 21:17:56,375       org.apache.zookeeper.ClientCnxn     - Opening socket connection to server 192.168.153.130/192.168.153.130:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO ] 2018-09-27 21:17:56,381       org.apache.zookeeper.ClientCnxn     - Socket connection established to 192.168.153.130/192.168.153.130:2181, initiating session
+ [INFO ] 2018-09-27 21:17:56,431       org.apache.zookeeper.ClientCnxn     - Session establishment complete on server 192.168.153.130/192.168.153.130:2181, sessionid = 0x1661a2d8e600010, negotiated timeout = 30000
+ [INFO ] 2018-09-27 21:17:56,436          org.I0Itec.zkclient.ZkClient     - zookeeper state changed (SyncConnected)
+ [INFO ] 2018-09-27 21:17:56,486 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Register: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538054276121, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:56,551 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Subscribe: consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538054276121, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:56,615 com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry     -  [DUBBO] Notify urls for subscribe url consumer://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538054276121, urls: [dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=7836&side=provider&timeout=1000&timestamp=1538054261666, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538054276121, empty://10.201.23.249/com.yan.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1538054276121], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:56,828 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Successed connect to server /10.201.23.249:20880 from NettyClient 10.201.23.249 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x675322c4, /10.201.23.249:54222 => /10.201.23.249:20880]], dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:56,828 com.alibaba.dubbo.remoting.transport.AbstractClient     -  [DUBBO] Start NettyClient EPH7D9Z0GWU2COI/10.201.23.249 connect to the server /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:56,937 com.alibaba.dubbo.config.AbstractConfig     -  [DUBBO] Refer dubbo service com.yan.service.ItemService from url zookeeper://192.168.153.130:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538054276121, dubbo version: 2.5.3, current host: 10.201.23.249
+ [INFO ] 2018-09-27 21:17:57,111 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping     - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+ [INFO ] 2018-09-27 21:17:57,161 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.pojo.TbItem com.yan.controller.ItemController.getItem(long)
+ [INFO ] 2018-09-27 21:17:57,161 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.yan.common.pojo.EasyUiDataGridResult com.yan.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+ [INFO ] 2018-09-27 21:17:57,162 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showIndex()
+ [INFO ] 2018-09-27 21:17:57,163 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping     - Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yan.controller.PageController.showPage(java.lang.String)
+ [INFO ] 2018-09-27 21:17:57,621 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 21:17:55 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 21:17:57,686 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter     - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Thu Sep 27 21:17:55 CST 2018]; root of context hierarchy
+ [INFO ] 2018-09-27 21:17:57,741 org.springframework.web.servlet.DispatcherServlet     - FrameworkServlet 'e3-manager': initialization completed in 2457 ms
+ [WARN ] 2018-09-27 21:18:08,024 com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker     -  [DUBBO] Although retry the method getItemList in the service com.yan.service.ItemService was successful by the provider 10.201.23.249:20880, but there have been failed providers [10.201.23.249:20880] (1/1) from the registry 192.168.153.130:2181 on the consumer 10.201.23.249 using the dubbo version 2.5.3. Last error is: Invoke remote method timeout. method: getItemList, provider: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538054276121, cause: Waiting server-side response timeout by scan timer. start time: 2018-09-27 21:18:06.758, end time: 2018-09-27 21:18:07.785, client elapsed: 51 ms, server elapsed: 967 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getItemList, parameterTypes=[int, int], arguments=[1, 30], attachments={path=com.yan.service.ItemService, interface=com.yan.service.ItemService, version=0.0.0, timeout=1000}]], channel: /10.201.23.249:54222 -> /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ com.alibaba.dubbo.rpc.RpcException: Invoke remote method timeout. method: getItemList, provider: dubbo://10.201.23.249:20880/com.yan.service.ItemService?anyhost=true&application=e3-manager-web&check=false&dubbo=2.5.3&interface=com.yan.service.ItemService&methods=getItemList,getItemById&pid=1464&revision=1.0-SNAPSHOT&side=consumer&timeout=1000&timestamp=1538054276121, cause: Waiting server-side response timeout by scan timer. start time: 2018-09-27 21:18:06.758, end time: 2018-09-27 21:18:07.785, client elapsed: 51 ms, server elapsed: 967 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getItemList, parameterTypes=[int, int], arguments=[1, 30], attachments={path=com.yan.service.ItemService, interface=com.yan.service.ItemService, version=0.0.0, timeout=1000}]], channel: /10.201.23.249:54222 -> /10.201.23.249:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:99)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:144)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:48)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:74)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:227)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy0.getItemList(proxy0.java)
+	at com.yan.controller.ItemController.getItemList(ItemController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2018-09-27 21:18:06.758, end time: 2018-09-27 21:18:07.785, client elapsed: 51 ms, server elapsed: 967 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getItemList, parameterTypes=[int, int], arguments=[1, 30], attachments={path=com.yan.service.ItemService, interface=com.yan.service.ItemService, version=0.0.0, timeout=1000}]], channel: /10.201.23.249:54222 -> /10.201.23.249:20880
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.returnFromResponse(DefaultFuture.java:188)
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:110)
+	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:84)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:96)
+	... 55 more
+[WARN ] 2018-09-27 21:18:08,025 com.alibaba.dubbo.remoting.exchange.support.DefaultFuture     -  [DUBBO] The timeout response finally returned at 2018-09-27 21:18:08.024, response Response [id=0, version=null, status=20, event=false, error=null, result=RpcResult [result=com.yan.common.pojo.EasyUiDataGridResult@c11bc9d, exception=null]], channel: /10.201.23.249:54222 -> /10.201.23.249:20880, dubbo version: 2.5.3, current host: 10.201.23.249
+ 
